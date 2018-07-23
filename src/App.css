@@ -1,0 +1,48 @@
+.Emotion{
+  borde: solid thin orange;
+  widt: 50vw;
+  float: left;
+  margin: 25px;
+}
+.emotion_choice{
+  width: 100px;
+  borde:thin solid red;
+}
+.emotion_description{
+  color:white;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: skyblue;
+  border-radius: 10px;
+  height: 30px;
+  margin-top: 10px;
+}
+.emotion_description:hover{
+  background-color: blue;
+}
+.choice_reaction {
+  width: 400px;
+}
+
+.Title{
+  text-align: center;
+}
+.emots{
+  height: 75vh;
+  borde: solid thin purple;
+  float: left;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.reacts{
+  border-left: solid thin gray;
+  width: 50vw;
+  height: 75vh;
+  float: right;
+  margi: 25px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
